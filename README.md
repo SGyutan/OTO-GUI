@@ -53,7 +53,7 @@ OTO分光器
 
 <img src="figs/oto002.PNG" alt="oto002" style="zoom:50%;" />
 
-- PythonDLL_x64フォルダーに作成した、”spectraeye_win64_api_ms.py”と”_＿_init__.py”を入れる。
+- PythonDLL_x64フォルダーに作成した、”spectraeye_win64_api_ms.py”と”__init__.py”を入れる。(このリポジトリにはdllは入っていません。OtOから配布のソフトでインストールしてください。）
 
  ![oto003](figs/oto003.PNG)
 
