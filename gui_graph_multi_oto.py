@@ -26,7 +26,6 @@ from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg, FigureCanvasAgg
 from matplotlib.figure import Figure
 import numpy as np
 
-# import windows_version.PythonDLL_x64.spectraeye_win64_api_ms as spi
 import PythonDLL_x64.spectraeye_win64_api_ms as spi
 # import keyboard
 
