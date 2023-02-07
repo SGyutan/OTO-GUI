@@ -1,4 +1,4 @@
-## OTOによる反射測定アプリケーション
+## OTO分光器による反射測定アプリケーション
 
 OTOの分光器を用いて光学測定を行うPythonプログラム
 
@@ -61,7 +61,7 @@ OTO分光器
 
 
 
-####　利用方法
+#### 利用方法
 
 - コマンドプロンプトまたはパワーシェルを用いて PythonDLL.slnと同じ階層のディレクトリーに移動する　(cdコマンドを用いる)
 - 移動したらプログラムを実行する
@@ -70,7 +70,7 @@ python gui_graph_multi_oto.py
 ```
 
 
-####　反射測定プログラム
+#### 反射測定プログラム
 
 Integration time、Average times、measurment typeを選んでStratを押すと測定が始まる。Abortで測定をキャンセルすることができる。
 
@@ -81,7 +81,7 @@ Integration time、Average times、measurment typeを選んでStratを押すと�
 - Dark、Referenceは再測定しない限り、最後に測定した値が保存されている。
 - Saveを押すと測定データがCSV形式でこのプログラムのあるディレクトリーにあるデータフォルダーに格納される。また、グラフがPNG形式で保存される。
 
-#####　Realtimeの測定
+##### Realtimeの測定
 
 ![](figs/oto010.PNG)
 
