@@ -2,7 +2,9 @@
 
 OTOの分光器を用いて光学測定を行うPythonプログラム
 
-OTOから配布されているPython SDKを参考に作成
+PysimpleGUIを用いてGUIを作成
+
+OTOから配布されているPython SDK内のプログラムを参考に作成
 
 
 
@@ -44,7 +46,7 @@ OTO分光器
 
 #### インストールと設定
 
-- OTOから配布されているSpectraSmartにあるsetup.exeを実行しデバイスのインストール
+- OTOから配布されているSpectraSmartにあるsetup.exeを実行しデバイスをインストール
 - Program Files/OTO/SpectraSmart/SDKにPythonフォルダーがあることを確認。　64bit版を利用するのでPythonDLL_x64を利用します。
 
 <img src="figs/oto001.PNG" alt="oto001" style="zoom:50%;" />
